@@ -63,23 +63,19 @@ Our shell has support for the following built-in commands:
 
 ### Credits
 
-All code written by [Eki Victory](https://github.com/ekivictory1) and [Williams Agada](https://github.com/Williams1010).
+All code written by [Abdulrahman Yahaya](https://github.com/SkilfulMan) and [Ameer Muhammad Usman](https://github.com/Ameermu).
 
 ## Authors
 
-👤 **Eki Victory**
+👤 **Abdulrahman Yahaya**
 
-- GitHub: [@ekivictory1](https://github.com/ekivictory1)
-- Twitter: [@victory_eki](https://twitter.com/victory_eki)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/eki-victory-371263134)
+- Abdulrahman Yahaya <Princeay1515@gmail.com>
 
 👤 **Williams Agada**
 
-- GitHub: [@Williams1010](https://github.com/Williams1010)
-- Twitter: [@williamsagada](https://twitter.com/williamsagada)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/agada-williams-a16541196)
+- Ameer Muhammad Usman <ameermuhd01234@gmail.com>
 
-**Victory & Williams @ ALX software engineering programme 2022.**
+**Abdulrahman & Ameer @ ALX software engineering programme 2022.**
 
 ## Show your support
 
