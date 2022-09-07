@@ -1,4 +1,8 @@
 #include "shell.h"
+/*
+ * print - prints an integer and character
+ * get_func - gets functions command and character
+ */
 
 int print(char *var, int fd)
 {
@@ -12,7 +16,7 @@ void (*get_func(char *command))(char **)
 	map_func map[] = {
 		{"env", env},
 		{"cd", ch_dir},
-		{"exit", quit}	
+		{"exit", quit}
 	};
 
 	for (i = 0; i < 3; i++)

@@ -1,4 +1,9 @@
 #include "shell.h"
+/*
+ * _strlen - Calculates the lenght of a string
+ * _strcmp - Compares two strings
+ * Return: 0
+ */
 
 int _strlen(char *str)
 {
@@ -17,7 +22,8 @@ int _strcmp(char *str1, char *str2)
 
 	if (len1 != len2)
 		return (-1);
-	while(str1[i])
+	while (str1[i])
+
 	{
 		if (str1[i] != str2[i])
 			return (-1);
