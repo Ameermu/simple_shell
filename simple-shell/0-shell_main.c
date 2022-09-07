@@ -1,15 +1,17 @@
 #include "shell.h"
 
 /**
- * shell process
+ * shell process - How a shell works
  *	1. prompt <-----
- * 	2. input       |
- * 	3. parse       |
- * 	4. execute -----
+ *	2. input       |
+ *	3. parse       |
+ *	4. execute -----
+ * main: calls other functions
+ * @argc: argument count
+ * @argv: argument value
+ * Return: prompt
  */
-
-int main (int argc __attribute__((unused)),
-		char **argv)
+int main(int argc __attribute__((unused)), char **argv)
 {
 	char *line;
 	char **args;

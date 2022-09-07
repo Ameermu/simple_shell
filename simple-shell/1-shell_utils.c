@@ -29,9 +29,7 @@ char *_getline(void)
 		no_read = read(STDIN_FILENO, &c, 1);
 		if (c == EOF || !no_read)
 		{
-			/* checks if the input is EOT
-			 	(ctrl+D) and if it is from the terminal
-			*/
+			// checks if the input is EOT (ctrl+D) and if it is from the terminal
 			if (isatty(STDIN_FILENO) == 1)
 			{
 				print("\n", STDIN_FILENO);
@@ -55,7 +53,7 @@ char *_getline(void)
 			{
 				perror("Failed to re-allocate a space in the memory");
 				exit(EXIT_FAILURE);
-				}
+			}
 		}
 	}
 }
@@ -125,6 +123,7 @@ int is_delimeter(const char *delimeters, char c)
 	if (!delimeters)
 		return (0);
 	while (delimeters[i])
+
 	{
 		if (delimeters[i] == c)
 			return (1);
