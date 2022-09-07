@@ -6,7 +6,6 @@
  *	2. input       |
  *	3. parse       |
  *	4. execute -----
- * main: calls other functions
  * @argc: argument count
  * @argv: argument value
  * Return: prompt
